@@ -72,3 +72,22 @@ body
 .home-content p {
     font-size: 20px;
 }
+.home-sci a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 3px solid aqua;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #0ef;
+    text-decoration: none;
+    margin: 20px 10px 20px 0;    
+}
+.home-sci a:hover{
+    background: #0ef;
+    color: black;
+    box-shadow: 5 5 20px #0ef;
+}
