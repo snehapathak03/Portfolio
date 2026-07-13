@@ -29,7 +29,9 @@ body{
     color: #eee;
     text-decoration: none;
     font-weight: 600;
-
+    cursor: default;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
 }
 .navbar a{
     display: inline-block;
@@ -49,7 +51,8 @@ body{
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background: url(https://www.shutterstock.com/image-photo/blue-background-solid-night-260nw-733729771.jpg)no-repeat;
+    /* background: url(https://www.colorhexa.com/001d2f.png)no-repeat; */
+    background: #072221;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -65,6 +68,13 @@ body{
     font-size: 32px;
     font-weight: 700;
 
+}
+.home-content h3:nth-of-type(2){
+    margin-bottom: 30px;
+
+}
+.home-content h3 span{
+    color: #0ef;
 }
 .home-content h1 {
     font-size: 56px;
@@ -105,9 +115,6 @@ body{
     letter-spacing: 1px;
     text-decoration: none;
     font-weight: 600;
-
-
-
 }
 .btn-box:hover{
     box-shadow: 0 0 5px cyan,
@@ -115,3 +122,15 @@ body{
     0 0 100px cyan, 0 0 200px cyan
     
 }
+@keyframes slideRight {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+    
+}
+
