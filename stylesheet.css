@@ -1,14 +1,14 @@
-*
-{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
 }
-body
-{
+
+body{
     color: #ededed;
 }
+
 .header
 {
     position: fixed;   
@@ -22,6 +22,7 @@ body
     align-items: center;
     z-index: 100;
 }
+
 .logo{
     position: relative;
     font-size: 25px;
@@ -42,21 +43,24 @@ body
 .navbar a:hover{
     color: #0ef;
 }
+
 .home{
     position: relative;
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background: url(https://i.pinimg.com/474x/c0/d3/82/c0d3820805958fe2d8435adf5f7e365d.jpg)no-repeat;
+    background: url(https://www.shutterstock.com/image-photo/blue-background-solid-night-260nw-733729771.jpg)no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
     padding: 70px 10% 0;
 }
+
 .home-content{
     max-width: 600px;
 }
+
 .home-content h3 {
     font-size: 32px;
     font-weight: 700;
@@ -89,5 +93,25 @@ body
 .home-sci a:hover{
     background: #0ef;
     color: black;
-    box-shadow: 5 5 20px #0ef;
+    box-shadow: 0 0 20px #0ef;
+}
+.btn-box{
+    display: inline-block;
+    padding: 12px 28px;
+    background: #0ef;
+    border-radius: 40px;
+    font-size: 17px;
+    color: black;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+
+
+
+}
+.btn-box:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan
+    
 }
