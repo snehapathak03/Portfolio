@@ -156,6 +156,26 @@ body{
     0 0 100px cyan, 0 0 200px cyan    
 }
 
+.about{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+}
+.about-img img{
+    padding-bottom: 20%;
+    max-width: 600px;
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+}
+.about-text h2{
+    font-size: 60px;
+}
+.about-text h2 span{
+    color: #0ef;
+}
+
 
 @keyframes slideRight {
     0% {
