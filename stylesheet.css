@@ -7,6 +7,7 @@
 
 body{
     color: #fff;
+    background-color: #071723;
 }
 
 .header {
@@ -157,24 +158,45 @@ body{
 }
 
 .about{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    background: url(../Portfolio/image/backgrounf\ 2.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
     align-items: center;
-    gap: 1.5rem;
+    padding: 70px 10% 0;
 }
-.about-img img{
+/* .about-img img {
     padding-bottom: 20%;
     max-width: 600px;
     height: auto;
     width: 100%;
     border-radius: 10px;
-}
+} */
+ .about-text{
+    max-width: 600px;
+ }
 .about-text h2{
     font-size: 60px;
+    font-weight: 700;
+    
+}
+.about-text h2:nth-of-type(2){
+    margin: 30px;
+
 }
 .about-text h2 span{
     color: #0ef;
 }
+/* .about-text p{
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+    opacity: 0;
+
+} */
 
 
 @keyframes slideRight {
