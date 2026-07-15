@@ -56,6 +56,7 @@ body{
     width: 100%;
     justify-content: space-between;
     height: 100vh;
+    background: url(../Portfolio/image/background\ .png);
     /* background: #072221; */
     background-size: cover;
     background-position: center;
@@ -71,7 +72,7 @@ body{
 .home-content h3 {
     font-size: 32px;
     font-weight: 700;
-    opacity: 0;
+    opacity: 1;
     animation: slideBottom is ease forwards;
     animation-delay: .7s;
 }
