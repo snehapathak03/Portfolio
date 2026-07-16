@@ -161,6 +161,7 @@ body{
     position: relative;
     width: 100%;
     justify-content: space-between;
+    height: 100vh;
     background: url(../Portfolio/image/backgrounf\ 2.png);
     background-size: cover;
     background-position: center;
@@ -179,24 +180,50 @@ body{
     max-width: 600px;
  }
 .about-text h2{
-    font-size: 60px;
-    font-weight: 700;
-    
-}
-.about-text h2:nth-of-type(2){
-    margin: 30px;
-
-}
-.about-text h2 span{
-    color: #0ef;
-}
-/* .about-text p{
     font-size: 56px;
     font-weight: 700;
     margin: -3px 0;
-    opacity: 0;
+    margin-bottom: auto;
+    opacity: 1;
+    animation: slideRight is ease forwards;
+    animation-delay: 1s; 
+    
+}
+/* .about-text h2:nth-of-type(2){
+    margin: 30px;
+    margin-bottom: 30px;
 
 } */
+.about-text h2 span{
+    color: #0ef;
+}
+.about-text h4{
+    font-size: 30px;
+    font-weight: 700;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: .7s;
+    margin-top: 50px;
+    margin-bottom: auto;
+}
+.about-text h4:nth-of-type(2){
+    margin: 30px;
+    animation: slideTop 1s ease forwards;
+    animation-delay: .7s;
+} 
+.about-text span{
+    color: aqua;
+}
+.about-text p{
+    /* font-weight: 600; */
+    margin: 3px 0;
+    font-size: 17px;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 1s;
+    margin-bottom: 30px;
+    
+}
 
 
 @keyframes slideRight {
