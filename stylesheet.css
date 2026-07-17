@@ -321,7 +321,7 @@ section{
 .bar{
     font-size: 23px;
 }
-.Technical-bars bar{
+.Technical-bars .bar{
     margin-top: 40px 0;  
 }
 .Technical-bars .bar:first-child{
@@ -331,6 +331,26 @@ section{
     margin-bottom: 0;
 
 }
+.Technical-bars .bar .info{
+    margin-bottom: 5px;
+}
+.Technical-bars .bar .info span{
+    font-size: 17px;
+    font-weight: 500;
+    animation: showText 0.5s 1s linear forwards;
+    opacity:0;
+}
+.Technical-bars .bar .progress-line{
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    animation: animate 1s cubic-bezier(1,0,0,5,1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
 
 
 
