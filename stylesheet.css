@@ -244,7 +244,7 @@ body{
 }
 .services-list{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(259px.1fr));
+    grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
     grid-gap: 40px;
     margin-top: 50px;
 }
@@ -292,6 +292,15 @@ body{
     0 0 25px aqua;
 
 }
+.read:hover{
+    background: #0ef;
+    color: black;
+    box-shadow: 0 0 20px #0ef;
+}
+.services-list div:hover{
+    transform: translate(-10px);
+}
+
 
 @keyframes slideRight {
     0% {
