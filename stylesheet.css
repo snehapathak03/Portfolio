@@ -362,6 +362,45 @@ section{
     transform: scaleX(0);
     transform-origin: left;
 }
+.progress-line.html span{
+    width: 90%;
+}
+.progress-line.css span{
+    width: 90%;
+}
+.progress-line.javascript span{
+    width: 70%;
+}
+.progress-line.java span{
+    width: 80%;
+}
+.progress-line.spring-boot span{
+    width: 70%;
+}
+.progress-line.mySQL span{
+    width: 90%;
+}
+.progress-line.git span{
+    width: 90%;
+}
+.progress-line.github span{
+    width: 90%;
+}
+.progress-line.cloud span{
+    width: 90%;
+}
+.progress-line span::after{
+    position: absolute;
+    padding: 1px 8px;
+    background-color: black;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 3px;
+    top: -20px;
+    right: -20px;
+    animation: showText 0.5s 1.5s linear forwards;
+    opacity: 0;
+}
 
 
 
