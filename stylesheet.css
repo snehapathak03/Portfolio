@@ -224,7 +224,6 @@ body{
     margin-bottom: 30px;
     
 }
-
 #services{
     color: aliceblue;
     font-size: 20px;
@@ -300,7 +299,6 @@ body{
 .services-list div:hover{
     transform: translate(-10px);
 }
-
 section{
     display: flex;
     flex-wrap: wrap;
@@ -350,6 +348,11 @@ section{
     transform: scaleX(0);
     transform-origin: left;
 }
+
+
+
+
+
 
 
 
