@@ -522,9 +522,22 @@ section{
     transform: translate(-50%, -50%);
     font-size: 17px;
     font-weight: 500;
-    animation: showText;
+    animation: showText 0.5s 1s linear forwards;
+    opacity: 0;
 }
-
+.radial-bar .text{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    bottom: -5px;
+    transform: translate(-50px);
+    font-size: 17px;
+    font-weight: 500;
+    animation: showText 0.5s 1s linear forwards;
+    opacity: 0;
+}
+ 
 
 
 
