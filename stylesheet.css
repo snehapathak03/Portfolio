@@ -552,7 +552,8 @@ section{
 }
 .portfolio-content{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(359px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(330px, auto));
+    margin-top: 20px;
 }
 .row{
     position: relative;
@@ -562,9 +563,12 @@ section{
 }
 .row img{
     width: 100%;
-    border-radius: 8px;
+    border-radius: 18px;
     display: block;
     transition: transform 0.5s;
+    margin-left: 30px;
+    
+    
 }
 .layer{
     width: 100%;
