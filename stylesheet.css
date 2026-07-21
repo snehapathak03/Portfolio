@@ -348,7 +348,7 @@ section{
     height: 5px;
     background-color: black;
     animation: animate 1s cubic-bezier(1,0,0,5,1) forwards;
-    transform: scaleX(0);
+    transform: scaleX(1);
     transform-origin: left;
 }
 @keyframes animate {
@@ -357,13 +357,15 @@ section{
     }
 }
 .Technical-bars .bar .progress-line span{
-    height: 100%;
-    background-color: aqua;
-    position: absolute;
-    border-radius: 10px;
-    animation: animate 1s 1s cubic-bezier(1,0,0,5,1) forwards;
-    transform: scaleX(0);
-    transform-origin: left;
+    position:absolute;
+    left:0;
+    top:0;
+    height:100%;
+    background:aqua;
+    border-radius:10px;
+    transform:scaleX(0);
+    transform-origin:left;
+    animation: animate 1s 1s ease forwards;
 }
 .progress-line.html span{
     width: 90%;
@@ -390,7 +392,7 @@ section{
     width: 90%;
 }
 .progress-line.cloud span{
-    width: 90%;
+    width: 80%;
 }
 .progress-line span::after{
     position: absolute;
@@ -411,13 +413,13 @@ section{
     content: "90%";
 }
 .progress-line.javascript span::after{
-    content: "90%";
+    content: "70%";
 }
 .progress-line.java span::after{
-    content: "90%";
+    content: "80%";
 }
 .progress-line.spring-boot span::after{
-    content: "90%";
+    content: "70%";
 }
 .progress-line.mySQL span::after{
     content: "90%";
@@ -429,7 +431,7 @@ section{
     content: "90%";
 }
 .progress-line.cloud span::after{
-    content: "90%";
+    content: "80%";
 }
 .progress-line span::before{
     content: "";
