@@ -244,9 +244,10 @@ body{
 }
 .services-list{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(359px,1fr));
     grid-gap: 40px;
     margin-top: 50px;
+    
 }
 .services-list div{
     background-color: transparent;
@@ -255,6 +256,7 @@ body{
     font-weight: 13px;
     border-right: 10px;
     border-radius: 20px;
+    margin-left: 140px;
     transition: background 0.5s, transform 0.5s;
     box-shadow: 1px 1px 20px #012290f7,
                 1px 1px 40px #0053b8f7
