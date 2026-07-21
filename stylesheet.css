@@ -566,12 +566,10 @@ section{
     cursor: pointer;
 }
 .row img{
-    width: 80%;
+    width: 90%;
     border-radius: 18px;
     display: block;
     transition: transform 0.5s;
-    
-    
 }
 .layer{
     width: 80%;
@@ -588,7 +586,7 @@ section{
     justify-content: center;
     text-align: center;
     padding: 0 40px;
-    transition: height 0.5s;
+    transition: height 2.5s;
 }
 .layer h5{
     color: black;
@@ -597,8 +595,8 @@ section{
     margin-bottom: 15px;
 }
 .layer p{
-    color: black;
-    font-size: 1rem;
+    color: darkblue;
+    font-size: small;
     line-height: 1.8;
 }
 .layer i{
