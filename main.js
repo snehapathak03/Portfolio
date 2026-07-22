@@ -7,13 +7,13 @@ var typed = new Typed(".text" , {
 });
 
 // Initialize EmailJS
-emailjs.init("YOUR_PUBLIC_KEY");
+emailjs.init("bflr4q-k-J8V69vl5");
 const form = document.getElementById("contact-form");
 form.addEventListener("submit", function (e) {
     e.preventDefault();
     emailjs.sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_x35qb6f",
+        "template_d768ihs",
         this
     )
     .then(() => {
